@@ -14,6 +14,39 @@
   }
 }
 
+@font-face {
+  font-family: 'Integral CF';
+  src: url('/fonts/IntegralCF/Fontspring-DEMO-integralcf-regular.otf') format('opentype');
+  font-weight: 400;
+  /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+  src: url('/fonts/IntegralCF/Fontspring-DEMO-integralcf-bold.otf') format('opentype');
+  font-weight: 700;
+  /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+  src: url('/fonts/IntegralCF/Fontspring-DEMO-integralcf-medium.otf') format('opentype');
+  font-weight: 500;
+  /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+  src: url('/fonts/IntegralCF/Fontspring-DEMO-integralcf-heavy.otf') format('opentype');
+  font-weight: 900;
+  /* Heavy */
+  font-style: normal;
+}
+
+
 body {
   color: var(--foreground);
   background: var(--background);

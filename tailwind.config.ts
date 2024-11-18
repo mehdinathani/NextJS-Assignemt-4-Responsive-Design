@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Integral CF', 'Satoshi', 'sans-serif'], // Optional fallback fonts
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

@@ -1,5 +1,7 @@
 import Image from "next/image";
 import PromoLine from "./components/promo";
+import NavBar from "./components/navbar";
+import HeroSection from "./components/hero";
 
 export default function Home() {
   return (
@@ -9,9 +11,9 @@ export default function Home() {
 
 
       {/* navbar */}
-
+      <NavBar />
       {/* hero section */}
-
+      <HeroSection />
       {/* brancd line */}
 
       {/* New Arrivals   */}
