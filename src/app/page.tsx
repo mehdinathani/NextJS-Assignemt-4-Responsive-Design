@@ -1,4 +1,3 @@
-import Image from "next/image";
 import PromoLine from "./components/promo";
 import NavBar from "./components/navbar";
 import HeroSection from "./components/hero";
